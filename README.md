@@ -15,3 +15,7 @@ The deployable site is self-contained in `public/`. No build step.
 ## GitHub Pages
 
 Push to `master` or run `.github/workflows/github-pages.yml` by hand. The workflow uploads `public/` only. `public/CNAME` is `webuildit.dev`.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
