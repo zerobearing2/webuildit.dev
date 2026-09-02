@@ -44,7 +44,7 @@
 
   <link rel="preload" href="/fonts/outfit-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/images/crew.webp" as="image" type="image/webp">
-  <link rel="stylesheet" href="/style.css?v=04c6cb4ab123">
+  <link rel="stylesheet" href="/style.css?v=658cb7d8c6ea">
   <script src="/site.js?v=964db8562ae1" defer></script>
 
   <script type="application/ld+json">
@@ -91,9 +91,9 @@
 
   <main id="main">
     <section class="hero">
-      <div class="hero-copy" data-reveal>
+      <div class="hero-copy">
         <h1>We build <em>it.</em></h1>
-        <p class="lede">People I work with hang here. Jobs, side projects, or just talking.</p>
+        <p class="lede">People I work with hang here. The agents write faster. We still have the group chat.</p>
         <a class="btn btn-lg" href="https://chat.webuildit.dev">
           Open the room
           <span class="btn-ico" aria-hidden="true">
@@ -105,8 +105,20 @@
         </a>
       </div>
 
-      <figure class="hero-art crew-float" data-reveal data-delay="1">
-        <div class="bezel">
+      <figure class="hero-art">
+        <div class="motes" aria-hidden="true">
+          <i style="--x:42%; --d:0s; --t:3.4s"></i>
+          <i style="--x:48%; --d:0.4s; --t:4.1s"></i>
+          <i style="--x:53%; --d:0.9s; --t:3.6s"></i>
+          <i style="--x:57%; --d:1.3s; --t:4.4s"></i>
+          <i style="--x:46%; --d:1.8s; --t:3.2s"></i>
+          <i style="--x:61%; --d:2.2s; --t:3.9s"></i>
+          <i style="--x:50%; --d:2.7s; --t:4.6s"></i>
+          <i style="--x:38%; --d:1.1s; --t:3.7s"></i>
+          <i style="--x:55%; --d:3.1s; --t:4s"></i>
+          <i style="--x:44%; --d:0.6s; --t:3.5s"></i>
+        </div>
+        <div class="bezel crew-float">
           <div class="bezel-core">
             <picture>
               <source type="image/webp" srcset="/images/crew.webp">
@@ -126,37 +138,18 @@
       <p>Not a product. A group chat with a domain.</p>
       <dl class="facts">
         <div>
-          <dt>Job hunt</dt>
-          <dd>Send the listing. Complain about the take-home. Fine.</dd>
+          <dt>Looking for work</dt>
+          <dd>Post the listing. We'll look at it. The bots applied first.</dd>
         </div>
         <div>
-          <dt>Side project</dt>
-          <dd>Share the repo. Steal a better name.</dd>
+          <dt>Building something</dt>
+          <dd>Share the repo. An agent wrote half of it. That's why we need a look.</dd>
         </div>
         <div>
-          <dt>The rest</dt>
-          <dd>Coffee is optional. The cube is not.</dd>
+          <dt>Hanging out</dt>
+          <dd>Talk. That's most of it. Let the monkeys have the tickets.</dd>
         </div>
       </dl>
-    </section>
-
-    <section class="door" data-reveal>
-      <div class="bezel">
-        <div class="bezel-core door-core">
-          <h2>The room is on a subdomain.</h2>
-          <p>We're still deciding how public it should stay. If you have the link, treat it like a friend's house.</p>
-          <a class="chat-url" href="https://chat.webuildit.dev">chat.webuildit.dev</a>
-          <a class="btn btn-lg" href="https://chat.webuildit.dev">
-            Open the room
-            <span class="btn-ico" aria-hidden="true">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="64" y1="192" x2="192" y2="64"></line>
-                <polyline points="88 64 192 64 192 168"></polyline>
-              </svg>
-            </span>
-          </a>
-        </div>
-      </div>
     </section>
   </main>
 
