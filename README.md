@@ -1,6 +1,6 @@
 # webuildit.dev
 
-Static front door for [webuildit.dev](https://webuildit.dev). The chat lives at [chat.webuildit.dev](https://chat.webuildit.dev).
+Static front door for [webuildit.dev](https://webuildit.dev). The chat lives in [Discord](https://discord.gg/ExQHdWPSp).
 
 ## Local
 
